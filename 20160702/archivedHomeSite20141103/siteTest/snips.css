@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: "Helvetica Neue",Helvetica, Arial, sans-serif;
+	color:white;
+	background-color: #1a1a1a;
+}
+.grid{
+	width: 1140px;
+	height: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 40px;
+	position: relative;
+	border-radius: 10px;
+	background-color: #3a3a3a;
+}
+.tile {
+	background-color: #2a2a2a;
+	position:absolute;
+	width: 270px;
+}
+
+/* Layout per tile */
+
+#tile1{
+	top: 20px;
+	left: 20px;
+	width: 270px;
+	height: 270px;
+}
+#tile2{
+	top: 310px;
+	left: 20px;
+	width: 270px;
+	height: 270px;
+}
+#tile3{
+	top: 20px;
+	left: 310px;
+	width: 560px;
+	height: 560px;
+}
+#tile4{
+	top: 20px;
+	left: 890px;
+	width: 270px;
+	height: 270px;}
+#tile5{
+	top: 310px;
+	left: 890px;
+	width: 270px;
+	height: 270px;
+}
+#tile6{
+	top: 600px;
+	left: 20px;
+	width: 560px;
+	height: 270px;
+}
+#tile7{
+	top: 600px;
+	left: 600px;
+	width: 270px;
+	height: 270px;
+}
+#tile8{
+	top: 600px;
+	left: 890px;
+	width: 270px;
+	height: 270px;
+}
+
+#tile9{
+	top: 890px;
+	left: 20px;
+	width: 1140px;
+	height: 270px;
+}
+
+/* fonts */
+
+.hero{
+	font-family: "m-1c";
+	font-size: 3.25em;
+	font-weight: 300;
+	font-style: normal;
+	margin-top: 110px;
+	margin-left: 40px;
+	margin-right: 40px;
+	color: gray;
+}
+
+.hero-bright{
+	color:white;
+}
+
+.action-title{
+	font-size:1.5em;
+	margin-top:28px;
+	margin-left:20px;
+	margin-right:20px;
+	color: white;
+}
+
+.action{
+	font-family: "m-1c";
+	font-size: 1.25em;
+	font-weight: 400;
+	color: lightgray;
+	margin-left: 20px;
+	margin-right: 20px;
+	color: white;
+}
+
+Add your <span>hero text</span> here along with whatever else you want to call <span>attention</span> to.
+
+Call to Action!
+
+Add action statement, and click through to deeper levels of content.

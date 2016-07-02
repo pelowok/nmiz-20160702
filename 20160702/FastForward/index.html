@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Fast Forward | Response</title>
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+		<link href="styles/main.css" type="text/css" rel="stylesheet">
+		<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+                <!--[if lte IE 8]>
+                <script type="text/javascript" src="../js/ie8.polyfil.min.js"></script>
+                <![endif]-->
+
+                <script src="js/libs/jquery/jquery.js" type="text/javascript"></script>
+                <script src="js/imageMapResizer.min.js" type="text/javascript"></script>
+		<script type='text/javascript' src='scripts/respond.min.js'></script>
+                
+	</head>
+	<body>
+		
+            <div id="wrapper">
+                <header>
+                    <div id="home">
+                        <h1>holdertext</h1>
+
+                        <nav>
+                            <ul>
+                                <li><a href="#home" title="Home">Home</a></li>
+                                <li><a href="#codeSamples" title="CodeSamples">Code</a></li>
+                                <li><a href="#recentProject" title="RecentProject">Project</a></li>
+                                <li><a href="#toolsAndPlatforms" title="ToolsAndPlatforms">Tools</a></li>
+                                <li><a href="#learningNewTech" title="LearningNewTech">Learn</a></li>
+                                <li><a href="#gitVersionControl" title="GitVersionControl">GIT</a></li>
+                                <li><a href="#singletonsAndSerializing" title="SingletonsAndSerializing">Singletons</a></li>
+                                <li><a href="#whatIBringToTheTeam" title="WhatIBringToTheTeam">Team</a></li>
+                                <li><a href="mailto:zak@mynameiszak.com" title="Contact" target="_blank">Contact</a></li>
+                                <li><a href="http://mynameiszak.com" title="website" target="_blank">website</a></li>
+                            </ul>
+                        </nav>
+                        <img class='imgmap' src="images/email.png" alt="banner" usemap="#emailmap"/>
+                        <map name="emailmap">
+                            <area shape="rect" coords="50,225,540,265" href="#codeSamples" alt="Code Samples" style="">
+                            <area shape="rect" coords="50,295,260,315" href="#recentProject" alt="Code Samples" style="">
+                            <area shape="rect" coords="50,350,540,405" href="#toolsAndPlatforms" alt="Code Samples" style="">
+                            <area shape="rect" coords="50,415,435,435" href="#learningNewTech" alt="Code Samples" style="">
+                            <area shape="rect" coords="50,450,500,465" href="#gitVersionControl" alt="Code Samples" style="">
+                            <area shape="rect" coords="50,475,370,495" href="#singletonsAndSerializing" alt="Code Samples" style="">
+                            <area shape="rect" coords="50,520,560,555" href="#whatIBringToTheTeam" alt="Code Samples" style="">
+                        </map>
+                    </div>
+
+                </header>	
+                    
+                <div id='topic'>
+                        
+                    <section id="codeSamples">
+                        <h1>Code Samples</h1>
+                        <hr>
+                        <h3>
+                            "..please provide us with some code samples from a recent project."
+                        </h3>
+                        <hr>
+                        <p>The initial challenge was to synchronize text blocks with events in the audio track. This was accomplished by applying cue points to the audio track at runtime, and checking those cue points against cue points stored in XML.</p>
+                        <p>The code here is ActionScript3 (AS3), a derivative of JavaScript. The code calls to a custom library of objects which all inherit behaviors from a base class I created, EventObject.</p>
+                        <p>Review portions of the code base in this PDF. The full code base is the sole property of the client. These screenshots are provided with permission of the client, and may not be redistributed.</p>
+                        <a href="assets/transcriptReader_walkthrough.pdf" target="_blank" style="float:left;"><img src="images/rp3.jpg" alt="" style="width:100%;"/></a>
+                   </section>
+		
+                    <aside>
+                        <h2>PROJECT: Transcript Reader</h2>
+                        <br>
+                        <p>Given an audio or video file, and a text transcript of that file, display synchronized text with the audio from the media file. Meet legal requirements regarding appearance and style for courtroom use.</p>
+                        <a href="assets/transcriptReader_walkthrough_0009_Layer 3.pdf" target="_blank"><img src="images/rp1.jpg" alt=""  style="width:100%; border:1px solid; border-radius: 4px; border-color:#ccc;"/></a>
+                        <br>
+                       
+                    </aside>
+
+                    <div id='return'>
+                        <a href="#home" title="Home">Home</a>
+                    </div>
+
+                </div>
+                <div><hr></div>
+                <div id='topic'>
+                    <section id="recentProject">
+                            <h1>Recent Project</h1>
+                            <hr>
+                            <h3>
+                                Describe a recent project completed. What was your role? What was the technology? What were some challenges? What made it successful?
+                            </h3>
+                            <hr>
+                            <p>
+                                PROJECT: Toddler Sleep/Wake Clock
+                            </p>
+                            <p>I needed to create a clock that presented toddlers with the time (and proximity to the time) of waking. I designed the UI, and coded the entire app. I used AS3 and Adobe AIR to build for Android tablet supporting Android 4.0.4 (Ice Cream Sandwich), as well as iOS devices supporting iOS 7 and higher. The greatest challenge was probably the UX issue of presenting time in a meaningful way to pre-literate users who have only a rudimentary grasp of time. I resolved this after consulting with pre-school educators and toddlers themselves, and the graphical result is available in the link to the right.</p>
+                            <p>From a technology perspective, I needed to meet the challenge of running a very light app that wouldn't run out battery on older tablets or phones, but would still provide animation as user feedback. Additionally, as a time-keeping app, it needed to efficiently check against the internal clock. And, of course, any app in which you are dealing with Time needs to be hardened against false results created by user interaction (for example, the user may enter the wake time by rolling the input clock forward OR backwards to display, say, 8:15 am).</p>
+                            <p>The project has come successfully through two releases, and in both cases was distributed for use-testing by toddlers (and the adults who set the clocks, of course). User feedback brought the most successful changes to the UI/UX portion of the app. The code base succeeded because I put additional time into learning specifics of efficiently calling and checking time in the AIR environment for Android and iOS. Further, the power efficiency is greatly helping by instantiating all aspects of the UI and display at runtime from vector shapes with gradients. Each sprite then runs off the same routine, which is called once each frame (as opposed to once per-sprite).</p>
+                    </section>
+                    
+
+                    <aside>
+                            <h3>Project Slides</h3>
+                             <a href="assets/ToddlerSleepClock.pdf" target="_blank"><img src="images/ToddlerSleepClock.jpg" alt="Toddler Sleep Clock" style="width:100%; border:1px solid; border-radius: 4px; border-color:#ccc;"/></a>
+                    </aside>
+
+                    <div id='return'>
+                        <a href="#home" title="Home">Home</a>
+                    </div>
+
+                </div>
+                <div><hr></div>
+                <div id='topic'>
+                    <section id="toolsAndPlatforms">
+                            <h1>Tools and Platforms</h1>
+                            <hr>
+                            <h3>
+                               Have you worked with technologies such as iOS, Android, Windows Mobile, Xamarin, PhoneGap, AIR, and HTML/JavaScript to build mobile apps? If so, please describe some of your experience.
+                            </h3>
+                            <hr>
+                            <p>I have built mobile apps for iOS and Android, primarily in the context of tablets for iOS, and both phone and tablet for Android. I have about 18 months of experience specifically building in AIR for desktop and mobile. In that project series, I developed a suite of apps that shared class objects and object hierarchy, and were deployable in modules that gained core architecture from a single instantiation of my core app.</p>
+                            <p>My experience with HTML/CSS/JS started years ago. Primarily, I have developed websites and user interaction on websites. I work in HTML5/CSS3/JS now, though I won't claim to be an expert on the multitude of JS libraries I've used. I research and understand my code, but I haven't yet been required to write my own JS libraries. I am capable of writing JavaScript for game and app creation, which I find to be quite a different animal from JQuery (probably my most-used JS library beyond base JavaScript).</p>
+                            <p>I educated myself in Ruby/RoR using CodeSchool and Learn Ruby the Hard Way/Ruby Koans. I have recently begun writing in C# to develop in Unity. Unity has it's own library, of course, and that's an intertwined skill. I can work more easily in JavaScript in Unity, but the majority of documentation and snippets are in C#, so ultimately it's easier for me to simply learn that.</p>
+                            <p>I have also built a multi-tier distributed application suite in VB.NET, using a SQL Server backend, and serving to browser through ASP.NET. That was a few years back, though, and VB was my first language that I wrote apps in. After I learned JavaScript and ActionScript, I have yet to return to VB.NET.</p>
+                            <p>I will also mention here that I have worked with 3DS Max, and also with AR/VR technology, deploying through Android and desktop. In both cases, the projects were defunded before delivery (separate clients), and never saw the light of day beyond test devices.</p>
+                    </section>
+
+                    <aside>
+                            <h3>Skill Summary</h3>
+                            <ul>
+                                <li>iOS</li>
+                                <li>Android</li>
+                                <li>AIR</li>
+                                <li>JavaScript</li>
+                                <li>ActionScript</li>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>Ruby/RoR</li>
+                                <li>C#</li>
+                                <li>Unity</li>
+                                <li>VB.NET</li>    
+                                <li>SQL</li>
+                                <li>3DS Max</li>
+                            </ul>
+                    </aside>
+
+                    <div id='return'>
+                        <a href="#home" title="Home">Home</a>
+                    </div>
+
+                </div>
+                <div><hr></div>
+                <div id='topic'>
+                    <section id="learningNewTech">
+                            <h1>Learning New Technology</h1>
+                            <hr>
+                            <h3>
+                                Are there any technologies that you are particularly interested in learning?
+                            </h3>
+                            <hr>
+                            <p>I really love building user interaction and games. Technologies that support that pursuit are widely varied, but I will point to things like Unity, Oculus, Virtual Reality/Augmented Reality. I am looking forward to the days when we can build user-satisfying AR experiences on mobile platforms. There are plenty of places where people are exploring this, and have been for several years, but we haven't hit upon how to use it in too many ways that users find meaningful and rewarding.</p>
+                    </section>
+
+                    <aside>
+                            <h3>My Inspirations for Tech Uses</h3>
+                            <p>Science fiction author Vernor Vinge is probably my number one influence. His vision for how we will use AR/VR in social interaction and to guide our experience of a virtual world resonate with me. Further, his concept of 'localizers' - individual chips that are scattered throughout an environment and provide computing power to devices that are proximate -, well, that is so nearly attainable already. I have looked long at the Raspberry Pi and IR nodes, and when I think about them in context of games or interactive environments, I know that the fictional dream is becoming real.</p>
+                    </aside>
+
+                    <div id='return'>
+                        <a href="#home" title="Home">Home</a>
+                    </div>
+
+                </div>
+                <div><hr></div>
+                <div id='topic'>
+                    <section id="gitVersionControl">
+                            <h1>GIT and Version Control</h1>
+                            <hr>
+                            <h3>
+                                Explain the process of how to create a new branch in GIT and merge into master.
+                            </h3>
+                            <hr>
+                            <ul>
+                                <li>Determine the repo to branch.</li>
+                                <li>Create and name the branch.</li>
+                                <li>Document the purpose of the branch (i.e. what task it addresses)</li>
+                                <li>Pull the branch.</li>
+                                <li>Make your code changes.</li>
+                                <li>Presumably, your branch is then forked and reviewed by others</li>
+                                <li>Commit the branch to the repo.</li>
+                                <li>Merge the approved branch into the master trunk.</li>
+                            </ul>
+                            
+                    </section>
+
+                    <aside>
+                            <h3>Full Disclosure</h3>
+                            <p>I haven't used GITHub for version control in a professional capacity, beyond using for my own version control with web development of my own sites, and with developing my own games and apps. It just hasn't been part of my work environment. That said, I do know how it works, and can (and do) use it to create new repositories, fork other repositories, branch dev steps, and commit to master when the branch is completed. I use it in tandem with NetBeans IDE, Unity, PowerShell, and of course, online.</p>
+                    </aside>
+
+                    <div id='return'>
+                        <a href="#home" title="Home">Home</a>
+                    </div>
+
+                </div>
+                <div><hr></div>
+                <div id='topic'>
+                    <section id="singletonsAndSerializing">
+                            <h1>Singletons and Serializing</h1>
+                            <hr>
+                            <h3>
+                                Explain what a singleton is and when you would use it.
+                            </h3>
+                            <hr>
+                            <p>In a nutshell, a singleton is something you only instantiate once.</p>
+                            <p>It has some different cases I've used it in: specifically, my core app in the software suite for WIN Interactive had to be a singleton, and this was managed by creating an external class in the constructor for the app manager. In Actionscript, class constructors are all public, so you can't define a singleton just by calling for private class Singleton().</p>
+                            <p>I also was taught in Unity [C#] that the singleton is used in managing single instantiations for things like game scores, game managers, etc. and is usually accomplished by the [Serializable] tag preceding the class definition.</p>
+                            <p>I have been told it is also used in user authentication and record creation, serving the same function as the record locking in SQL during UPDATE commands.</p>
+                    </section>
+
+                    <aside>
+                        <img src="images/hilander.jpg" alt="Highlander: There Can Be Only One" style="margin-top: 10%; width: 100%;"/>
+                        <h5>Serious protection v. multi-threaded instances</h5>
+                    </aside>
+
+                    <div id='return'>
+                        <a href="#home" title="Home">Home</a>
+                    </div>
+
+                </div>
+                <div><hr></div>
+                <div id='topic'>
+                    <section id="whatIBringToTheTeam">
+                            <h1>What I Bring to the Team</h1>
+                            <hr>
+                            <h3>
+                                We learn from each other and often collaborate on projects, so working on-site is required. What would you bring to the office?
+                            </h3>
+                            <hr>
+                            <p>It might sound cliche, but the first thing I bring is an Open Mind. I look at challenges with the assumption that they can be overcome. This is the heart of my talent for learning new technologies and languages. I describe challenges in terms of the difficulty level, not probability of success.</p>
+                            <p>In terms of practical skills, I have a decade experience in Visual Design, Human-Computer Interaction, User Interaction and User Experience. I know Adobe CS very well, and can rapidly accomplish design tasks. I have a deep experience in Type and in most visual mediums.</p>
+                            <p>I have worked with large-format digital screens and the CMS's that power them, and also have created multiple forms of content for them. By 'large-format' I mean: the scoreboards at Patriot Place and Verizon Center, the exterior LED displays (80'+ in height) in Times Square, full-wall interactive displays in hospitals and multi-national corporation headquarters, etc. I have worked small, but I have also worked very, very big. I also know the world of interactive exhibits and trade-show touch tables.</p>
+                            <p>Since I have worked in small companies, I'm used to being both a collaborator, and the go-to person who learns a new new technology and provides the proof-of-concept at early stages in project delivery.</p>
+                    </section>
+
+                    <aside>
+                            <p>The temptation to answer this question with the single word:</p>
+                            <h3>donuts</h3><br>
+                            
+                            <p>was greater than I care to admit.
+                    </aside>
+
+                    <div id='return'>
+                        <a href="#home" title="Home">Home</a>
+                    </div>
+
+                    
+                    
+                </div>
+                <div><hr></div>
+                <div id='topic'>
+                    <section id="funFacts">
+                            <h1>Fun Facts about this Website</h1>
+                            <hr>
+                            <ol>
+                                <li>The email image in the head of the page is not an image of a printed document. That highlighting is PhotoShop using a brush and Overlay filters.</li>
+                                <li><br></li>
+                                <li>The image of the email uses an HTML image map to create different links over the same image. Big deal, right? Well, I didn't use image slices, so how did I get the map areas to change dynamically in a responsive web design, when Area tags use static values? I used the handy imageMapResizer.min.js repo on GITHub. Very cool tool.</li>
+                                <li><br></li>
+                                <li>I wrote the HTML and CSS for this website over the course of a Sunday afternoon. And I enjoyed it.</li>
+                                <li><br></li>
+                                <li>Alert readers will notice that my name is Zak, my website is mynameiszak.com, and my email is, predictably, zak@mynameiszak.com. They may also notice that the email I got from Fast Forward was addressed to somebody named Carl.</li>
+                            </ol>
+                            
+                    </section>
+                </div>
+                <script type="text/javascript">
+
+                        $('map').imageMapResize();
+
+                </script>
+        
+                <footer style="text-align:center; margin: 2%;">
+                    <h6>Zak PeloJoaquin | zak@mynameiszak.com | 206.972.8675</h6>
+                    
+                </footer>
+            </div>
+	</body>
+</html>

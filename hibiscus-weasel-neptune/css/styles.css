@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* CSS Document */
+
+    
+/* Add this as properties to a selector */
+.header{
+    background: url("images\bg1.jpg"), url("images\bg2.jpg");
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+}

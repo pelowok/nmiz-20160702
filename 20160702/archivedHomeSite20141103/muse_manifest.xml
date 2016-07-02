@@ -1,0 +1,125 @@
+<manifest alg="2" build="8" opt="false">
+  <folder name="assets">
+    <file name="illustration3lg.jpg" crc="258489600" mt="1366746773000"/>
+    <file name="ui2.jpg" crc="405071249" mt="1366745456000"/>
+    <file name="ui1.jpg" crc="357834103" mt="1366734170000"/>
+    <file name="ui_grid_lg.jpg" crc="4156496255" mt="1366823085000"/>
+    <file name="resume-zak_pelojoaquin.pdf" crc="3959106372" mt="1367866426000"/>
+    <file name="resume-zak_pelojoaquin2.pdf" crc="3959106372" mt="1367876918000"/>
+    <file name="booth_still.jpg" crc="4254943327" mt="1367257024000"/>
+    <file name="raisearuckus.jpg" crc="4135747022" mt="1367861264000"/>
+    <file name="honeypiedoubleipa.jpg" crc="3940926340" mt="1367861264000"/>
+    <file name="axis-ecosystem_concept01_b221.jpg" crc="4079240478" mt="1323984097000"/>
+    <file name="redhouseale.jpg" crc="118829370" mt="1367861264000"/>
+    <file name="uponthesunsaison.jpg" crc="3760657264" mt="1367861264000"/>
+    <file name="axis-ecosystem.mov" crc="477302483" mt="1367255740000"/>
+    <file name="squirrelsongeese.jpg" crc="4190418350" mt="1367861264000"/>
+    <file name="mexicalistout.jpg" crc="516068080" mt="1367861264000"/>
+    <file name="dointhymewitbier.jpg" crc="421133431" mt="1367861264000"/>
+    <file name="calltoaction-03.mov" crc="479994696" mt="1367861264000"/>
+    <file name="boothpoc.mov" crc="4025960953" mt="1367861264000"/>
+    <file name="saint_luke-s_hospital_donor_wall_and_history_wall_480x270.mp4" crc="506307830" mt="1366738686000"/>
+    <file name="saint_luke-s_hospital_donor_wall_and_history_wall_640x360.mp4" crc="3850367680" mt="1366738702000"/>
+    <file name="simulation_room_640x360.mp4" crc="4025684081" mt="1366738515000"/>
+    <file name="simulation_room_640x360.mov" crc="3894093715" mt="1366743711000"/>
+    <file name="simulation_room_480x270.mp4" crc="395724079" mt="1366738485000"/>
+    <file name="ui_gridmap_media_b110.pdf" crc="87680477" mt="1349899482000"/>
+    <file name="_zak_pelojoaquin-resume.pdf" crc="237278334" mt="1368193166000"/>
+  </folder>
+  <folder name="css">
+    <file name="site_global.css" crc="89652228"/>
+    <file name="master_a-master.css" crc="4182288951" ref="samples:skills:index:writing:resume:visual-design:interactive-design:relevant-experience:interests"/>
+    <file name="samples.css" crc="4163248908" ref="samples"/>
+    <file name="iefonts_samples.css" crc="4121295264" ref="samples"/>
+    <file name="skills.css" crc="4265492871" ref="skills"/>
+    <file name="index.css" crc="4120882692" ref="index"/>
+    <file name="iefonts_skills.css" crc="3767242454" ref="skills"/>
+    <file name="writing.css" crc="214427979" ref="writing"/>
+    <file name="iefonts_writing.css" crc="382286044" ref="writing"/>
+    <file name="resume.css" crc="30808188" ref="resume"/>
+    <file name="visual-design.css" crc="4189009381" ref="visual-design"/>
+    <file name="iefonts_visual-design.css" crc="310643213" ref="visual-design"/>
+    <file name="interactive-design.css" crc="247776839" ref="interactive-design"/>
+    <file name="iefonts_interactive-design.css" crc="28715692" ref="interactive-design"/>
+    <file name="iefonts_resume.css" crc="384589803" ref="resume"/>
+    <file name="relevant-experience.css" crc="4119077284" ref="relevant-experience"/>
+    <file name="iefonts_relevant-experience.css" crc="336503174" ref="relevant-experience"/>
+    <file name="interests.css" crc="3954823013" ref="interests"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:samples:skills:writing:resume:visual-design:interactive-design:relevant-experience:interests"/>
+    <file name="museutils.js" crc="4076886207" ref="index:samples:skills:writing:resume:visual-design:interactive-design:relevant-experience:interests"/>
+    <file name="pie.js" crc="4067523484" ref="index:samples:skills:writing:resume:visual-design:interactive-design:relevant-experience:interests"/>
+    <file name="jquery.musemenu.js" crc="4103303034" ref="index:samples:skills:writing:resume:visual-design:interactive-design:relevant-experience:interests"/>
+    <file name="jquery.watch.js" crc="4068933136" ref="index:samples:skills:writing:resume:visual-design:interactive-design:relevant-experience:interests"/>
+    <file name="webpro.js" crc="4027400531" ref="samples:relevant-experience"/>
+    <file name="musewpslideshow.js" crc="355959496" ref="samples"/>
+    <file name="jquery.museoverlay.js" crc="473466419" ref="samples"/>
+    <file name="touchswipe.js" crc="4156838003" ref="samples"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4095828644" ref="visual-design"/>
+    <file name="musewpdisclosure.js" crc="232868963" ref="relevant-experience"/>
+  </folder>
+  <folder name="images">
+    <file name="home-favicon.ico" crc="4219387219" ref="index"/>
+    <file name="2013-02-13 155337-u576.jpg" crc="99919031" ref="index"/>
+    <file name="12-u588.jpg" crc="479673356" ref="index"/>
+    <file name="illustration.jpg" crc="341088108" ref="samples"/>
+    <file name="blank.gif" crc="4208392903" ref="samples"/>
+    <file name="aftereffects1.jpg" crc="3893313112" ref="samples"/>
+    <file name="illustration3.jpg" crc="518753742" ref="samples"/>
+    <file name="indesign.jpg" crc="3763764893" ref="samples"/>
+    <file name="ui_grid_lg.jpg" crc="4057944602" ref="samples"/>
+    <file name="illustration2.jpg" crc="436762429" ref="samples"/>
+    <file name="ui1.jpg" crc="132584270" ref="samples"/>
+    <file name="ui2.jpg" crc="3612342" ref="samples"/>
+    <file name="illustration60x51.jpg" crc="3947664970" ref="samples"/>
+    <file name="aftereffects173x45.jpg" crc="4203742616" ref="samples"/>
+    <file name="illustration360x53.jpg" crc="3935661102" ref="samples"/>
+    <file name="indesign61x45.jpg" crc="92866164" ref="samples"/>
+    <file name="ui_grid_lg84x45.jpg" crc="4159049182" ref="samples"/>
+    <file name="illustration272x45.jpg" crc="4278311908" ref="samples"/>
+    <file name="ui172x45.jpg" crc="336518096" ref="samples"/>
+    <file name="ui275x45.jpg" crc="390870900" ref="samples"/>
+    <file name="loading.gif" crc="3815509949" ref="samples"/>
+    <file name="illustration139x117.jpg" crc="521321476" ref="visual-design"/>
+    <file name="illustration2139x88.jpg" crc="323688611" ref="visual-design"/>
+    <file name="illustration3193x170.jpg" crc="3971678726" ref="visual-design"/>
+    <file name="ui_gridmap_640x480_b113.jpg" crc="3792298429" ref="interactive-design"/>
+    <file name="ui2200x121.jpg" crc="298305519" ref="interactive-design"/>
+    <file name="ui1203x129.jpg" crc="4100986154" ref="interactive-design"/>
+    <file name="myprescription.jpg" crc="533898045" ref="interactive-design"/>
+    <file name="adobe-pdf-logo-u885-fr.png" crc="3787828655" ref="resume"/>
+    <file name="arrowmenudown.gif" crc="213132104" ref="index:samples:skills:writing:resume:visual-design:interactive-design:relevant-experience:interests"/>
+    <file name="pasted image 188x256.jpg" crc="3891488544" ref="index"/>
+    <file name="axis-ecosystem_concept01_b221193x194.jpg" crc="152252339" ref="visual-design"/>
+    <file name="quicktime.png" crc="3979081018" ref="visual-design"/>
+    <file name="redhouseale.jpg" crc="4222041042" ref="visual-design"/>
+    <file name="raisearuckus.jpg" crc="3950020352" ref="visual-design"/>
+    <file name="dointhymewitbier.jpg" crc="3989304588" ref="visual-design"/>
+    <file name="mexicalistout.jpg" crc="3829111267" ref="visual-design"/>
+    <file name="honeypiedoubleipa.jpg" crc="165153870" ref="visual-design"/>
+    <file name="uponthesunsaison.jpg" crc="378111329" ref="visual-design"/>
+    <file name="squirrelsongeese.jpg" crc="3769209642" ref="visual-design"/>
+    <file name="adobe-pdf-logo-u1277-fr.png" crc="4248385388" ref="visual-design"/>
+    <file name="adobe-pdf-logo-u1277-r-fr.png" crc="149618514" ref="visual-design"/>
+    <file name="adobe-pdf-logo-u1277-m-fr.png" crc="149618514" ref="visual-design"/>
+    <file name="poc_still.jpg" crc="10465062" ref="visual-design"/>
+    <file name="booth_still.jpg" crc="471029210" ref="visual-design"/>
+    <file name="axis-ecosystem_concept01_b221.jpg" crc="446098413" ref="relevant-experience"/>
+    <file name="layout-u1514.jpg" crc="3863563931" ref="relevant-experience"/>
+    <file name="2012-11-29 150429-u1503.jpg" crc="383947148" ref="relevant-experience"/>
+    <file name="2012-12-01 181108-u1501.jpg" crc="442303906" ref="relevant-experience"/>
+    <file name="2012-12-02 162714-u1497.jpg" crc="183442415" ref="relevant-experience"/>
+    <file name="capture2.jpg" crc="4187369099" ref="relevant-experience"/>
+    <file name="2013-03-20 200930-u1517.jpg" crc="3955180913" ref="relevant-experience"/>
+  </folder>
+  <file name="index.html" crc="4242583106" mt="1367864770838"/>
+  <file name="samples.html" crc="3877261921" mt="1367864770840"/>
+  <file name="skills.html" crc="4164223251" mt="1367864770843"/>
+  <file name="writing.html" crc="364725719" mt="1368024495145"/>
+  <file name="resume.html" crc="415191360" mt="1368193243257"/>
+  <file name="visual-design.html" crc="3887880904" mt="1368022850468"/>
+  <file name="interactive-design.html" crc="30102468" mt="1367864770855"/>
+  <file name="relevant-experience.html" crc="3832114348" mt="1368024466808"/>
+  <file name="interests.html" crc="103542810" mt="1367876956162"/>
+</manifest>

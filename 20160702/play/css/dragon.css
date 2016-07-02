@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 13, 2015, 2:06:56 PM
+    Author     : zp
+*/
+*{	-webkit-transition: .7s ease-out;
+ 	-moz-transition: .7s ease-out;
+ 	-o-transition:  .7s ease-out;
+ 	transition: .7s ease-out;
+    list-style: none;
+}
+
+/*================================
+TYPOGRAPHY
+================================*/
+body {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.8em;
+}
+
+.bigicon {font-size: 3em;}
+h2{font-size: 42px;}
+h3{font-size: 28px;}
+h4{font-size: 18px; line-height: 1.4em;}
+
+p{
+    letter-spacing: 1px;
+    color: #222;
+    font-weight: lighter;
+}
+
+
+/*================================
+DEFAULT STYLE & FORMATING
+================================*/
+ul{padding: 0;}
+a{color: #ea9312}
+a:hover{color: #363942; text-decoration: none;}

@@ -1,0 +1,396 @@
+/* Credit: http://www.templatemo.com */
+
+/* 
+Tech Layer Template 
+http://www.templatemo.com/preview/templatemo_375_tech_layer 
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+body{ 
+	margin: 0;
+	padding: 0;
+	color: #e2e2e2;
+	font-size: 12px;
+	line-height: 1.6em; 
+	font-family: 'Lato', Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #313030;
+	background-position: center top;
+	background-repeat: no-repeat
+}
+body::after{
+	content: "";
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
+	background: url(images/bboard04.jpg);	
+	opacity: 0.25;
+}
+
+a, a:link, a:visited { color: #FFFFFF; font-weight: normal; text-decoration: none }
+
+ul, li {
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+
+h1, h2, h3, h4, h5, h6 { color: #fff; font-weight: normal; }
+h1 { font-size: 36px; margin: 0 0 30px; padding: 5px 0 }
+h2 { font-size: 24px; margin: 0 0 25px; padding: 5px 0 }
+h3 { font-size: 20px; margin: 0 0 20px; padding: 0; }
+h4 { font-size: 16px; margin: 0 0 15px; padding: 0; }
+h5 { font-size: 14px; margin: 0 0 10px; padding: 0;  }
+h6 { font-size: 12px; margin: 0 0 5px; padding: 0; font-weight: 700 }
+
+p { padding: 0; margin: 0 0 15px 0 }
+
+p a, p a:link, p a:visited { color: #00CCFF; font-weight: normal; text-decoration: none }
+p a:hover { color: #CC66FF; text-decoration: none; }
+
+.clear{ clear:left; }
+
+blockquote.testimonial_block { margin: 40px; background:  url(images/icon_testimonial.png) left center no-repeat; padding-left: 120px }
+cite { font-weight: bold; color:#fff; }
+cite a, cite a:link, cite a:visited  { font-size: 12px; text-decoration: none; font-style: normal }
+cite span { font-weight: 400; color: #ccc; }
+
+.list_bullet { margin: 10px 0 10px 15px; padding: 0; list-style: none }
+.list_bullet li { color:#fff; margin: 0 0 7px 0; padding: 0 0 0 20px; background: url(images/templatemo_list.png) no-repeat scroll 0 6px  }
+.list_bullet li a { color: #fff; font-weight: normal; text-decoration: none }
+.list_bullet li a:hover { color: #fff }
+
+.no_bullet { margin: 0; padding: 0; list-style: none }
+.no_bullet li { margin: 0 0 20px 0; padding: 0 }
+a.header { display: block; font-weight: 700 }
+
+.half { width: 330px }
+
+.h20 { height: 20px }
+.h40 { height: 40px }
+
+img { margin: 0; padding: 0; border: none }
+.img_border { background: #525252; padding: 4px; border: 1px solid #282828 }
+.img_nom { display: block; margin-bottom: 15px }
+.img_fl { float: left; margin: 3px 15px 5px 0 }
+.img_fr { float: left; margin: 3px 0 5px 15px }
+
+.left { float: left }
+.right { float: right }
+.aboutright{  }
+
+#templatemo_header_wrapper {
+	width: 100%;
+	background: url(images/templatemo_header.png) center bottom no-repeat 
+}
+
+#templatemo_header {
+	width: 800px;
+	margin: 0 auto;
+	padding: 35px 20px 40px;
+	background: url(images/templatemo-header-bg.png) no-repeat center
+}
+
+#templatemo_main_wrapper {
+	width: 800px;
+	height: 480px;
+	margin: 0 auto;
+	padding: 9px;
+	background: url(images/templatemo_content_bg.png) no-repeat
+}
+
+#templatemo_main {
+	width: 800px;
+	height: 480px;
+	overflow: hidden;
+}
+
+#templatemo_footer_wrapper {
+	width: 100%;
+	background: url(images/templatemo_footer.png) center top no-repeat
+}
+
+#templatemo_footer {
+	width: 780px;
+	margin: 0 auto;
+	padding: 20px 20px;
+	color: #999999;
+	text-align: center;
+}
+
+#templatemo_footer a {
+	color: #999999;
+}
+
+#site_title { display: block; width: 300px; margin: 0 auto; text-align: center }
+#site_title a { font-size: 28px; color: #fff; font-weight: 700 }
+
+#content{
+	overflow:hidden;
+	width: 7000px;
+	position:relative;
+	height: 480px;
+	background: #3c3b3b;	
+}
+
+.section {
+	position:relative;
+	float:left;
+	width: 800px;
+	height: 480px;
+	margin-right: 20px;
+	background: #3c3b3b;
+}
+
+.section_with_padding {
+	padding:40px;
+	width: 720px;
+	height: 400px;
+}
+
+.section a.home_btn { 
+	position: absolute; 
+	top: 20px; 
+	right: -1px; 
+	width: 52px; 
+	height: 45px; 
+	display: block;
+	background: url(images/home_btn.png); 
+	text-indent: -10000px 
+}
+
+.section  a.page_nav_btn { position: absolute; display: block; width: 77px; height: 27px; line-height: 27px; font-weight: 700; bottom: 20px; text-align: center }
+
+.section  a.previous { left: 0; background: url(images/previous_btn.png)  left center no-repeat }
+
+.section  a.next { right: 0; background:  url(images/next_btn.png) right center no-repeat }
+
+.home_box { width: 400px; height: 480px; }
+
+.row1 { width: 400px; height: 120px }
+.row2 { width: 400px; height: 240px }
+.row2 a:hover { opacity: 0.7; }
+
+.box1 { background: #2B4E54 url(images/templatemo_01.png) scroll 20px 25px no-repeat }
+.box1:hover { background-color: #244247 }
+
+.box2 { background: #335440 url(images/templatemo_02.png) scroll 20px 25px no-repeat }
+.box2:hover { background-color: #264031 }
+
+.box3 { background: #394C33 url(images/templatemo_03.png) scroll 20px 25px no-repeat }
+.box3:hover { background-color: #2A3826 }
+
+.box4 { background: #7A7D46 url(images/templatemo_04.png) scroll 20px 25px no-repeat }
+.box4:hover { background-color: #616338 }
+
+.box5 { background: #2B4E54  scroll 18px 15px no-repeat  }
+.box5:hover { background-color: #244247 }
+
+.box6 { background: #7A7D46 url(images/linkedin_sm.png) scroll 20px 25px no-repeat }
+.box6:hover { background-color: #616338 }
+
+.home_box .box_with_padding { padding: 25px 15px 15px 140px }
+
+#content .home_box h2 { color: #fff; font-size: 36px; margin-bottom: 10px }
+
+#home_gallery {
+	position: relative;
+}
+
+#mini_contact_form { padding: 15px; width: 370px }
+
+#mini_contact_form .input_field { 
+	display: block; 
+	margin-left: 5px; 
+	float: left; 
+	width: 78px; 
+	padding: 2px; 
+	height: 18px;
+	font-size: 11px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #999999; 
+	border: 1px solid #525252; 
+	background: #292929; 
+	margin-bottom: 5px; 
+}
+
+#mini_contact_form textarea { 
+	clear: both; 
+	width: 160px; 
+	height: 50px;
+	padding: 2px; 
+	font-size: 11px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #999999; 
+	border: 1px solid #525252;
+	background: #292929; 
+	margin-bottom: 10px;
+}
+
+#mini_contact_form .submit_btn { 
+	display: block; 
+	float: right; 
+	font-size: 11px;
+	font-weight: bold;
+	background: #15171d; 
+	color: #999999;
+	cursor: pointer; 
+	border: 1px solid #30333c; 
+	padding: 4px 10px; 
+	margin-right: 8px;
+}
+
+#mini_contact_form .col_half { width: 185px }
+
+#social_links {
+}
+
+#social_links li {
+	width: auto;
+	height: auto;
+	padding: 0;
+	background: none;
+}
+#social_links li a {
+	display: block;
+	float: left;
+	width: 60px;
+	height: 48px;
+	line-height: 48px;
+	padding: 5px 0px 5px 50px;
+	margin-bottom: 20px;
+	font-size: 14px;
+	background-position: left;
+	background-repeat: no-repeat
+}
+#social_links li a img {
+	display: block;
+	float: left;
+	width: 320px;
+	height: 120px;
+	margin-bottom: 10px;
+	background-repeat: no-repeat
+}
+
+#social_links li a.linkedin {
+	background-image: url(images/linkedin_sm.png) 
+}
+#social_links li a.indeed {
+	background-image: url(images/indeed_sm.png) 
+}
+#social_links li a.github {
+	background-image: url(images/github_sm.jpg)
+}
+#social_links li img.looks {
+	width: 320px;
+	height: 120px;
+	background-image: url(images/hero_beads.jpg) 
+}
+#social_links li img.feels {
+	width: 320px;
+	height: 120px;
+	background-image: url(images/hero_tent.jpg) 
+}
+#social_links li img.works {
+	width: 320px;
+	height: 120px;
+	background-image: url(images/hero_butterfly.jpg)
+}
+#social_links li a.facebook {
+	background-image: url(images/facebook.png) 
+}
+#social_links li a.flickr {
+	background-image: url(images/flickr.png)
+}
+#social_links li a.skype {
+	background-image: url(images/skype.png)
+}
+#social_links li a.twitter {
+	background-image: url(images/twitter-2.png) 
+}
+#social_links li a.vimeo {
+	background-image: url(images/vimeo.png)
+}
+#social_links li a.youtube {
+	background-image: url(images/youtube.png)
+}
+
+#galleryLook, #galleryFeel, #galleryWork {
+
+}
+
+#galleryLook li, #galleryFeel li, #galleryWork li {
+	width: auto;
+	height: auto;
+	float: left;
+	width: 200px;
+	height: 120px;
+	padding: 0;
+	background: none;
+}
+
+#galleryLook li a, #galleryFeel li a, #galleryWork li a {
+	display: block;
+}
+#testimonialtext{
+	width: 660px;
+}
+#galleryLook li a img, #galleryFeel li a img, #galleryWork li a img {  { }
+
+.hidden {
+	display: none;
+	visibility:hidden;	
+}
+.hidden ul {
+	display:none;
+}
+.hidden a {
+	display:none;
+}
+.hidden img {
+	display:none;
+}
+#hiddenillustrations {
+	display: none;	
+}
+#contact_form { padding: 0; width: 330px }
+
+#contact_form form { margin: 0px; padding: 0px; }
+
+#contact_form form .input_field { 
+	width: 150px; 
+	padding: 4px; 
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #999999; 
+	border: 1px solid #525252; 
+	background: #292929; 
+	margin-bottom: 10px; 
+}
+
+#contact_form form label { display: block;font-size: 11px }
+
+#contact_form form textarea { 
+	clear: both; 
+	width: 320px; 
+	height: 120px; 
+	padding: 4px; 
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #999999;
+	border: 1px solid #525252; 
+	background: #292929; 
+	margin-bottom: 10px;
+}
+
+#contact_form form .submit_btn { 
+	font-size: 11px; 
+	font-weight: bold;
+	background: #15171d; 
+	color: #999999; 
+	cursor: pointer; 
+	border: 1px solid #30333c; 
+	padding: 5px 10px; 
+	margin: 0px;
+}

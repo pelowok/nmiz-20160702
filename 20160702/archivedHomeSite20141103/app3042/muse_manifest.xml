@@ -1,0 +1,97 @@
+<manifest alg="2" build="8" opt="false">
+  <folder name="css">
+    <file name="site_global.css" crc="3783183758"/>
+    <file name="master_a-master.css" crc="521066858" ref="interaction-design:resume:samples:relevant-experience:flexibility:layout:index:interactive-design:self-management:visual-design:interests:communication"/>
+    <file name="interaction-design.css" crc="3931849275" ref="interaction-design"/>
+    <file name="iefonts_interaction-design.css" crc="488020178" ref="interaction-design"/>
+    <file name="resume.css" crc="3855291318" ref="resume"/>
+    <file name="samples.css" crc="4054829327" ref="samples"/>
+    <file name="iefonts_samples.css" crc="4179932649" ref="samples"/>
+    <file name="relevant-experience.css" crc="4019896861" ref="relevant-experience"/>
+    <file name="flexibility.css" crc="22123603" ref="flexibility"/>
+    <file name="iefonts_flexibility.css" crc="281038308" ref="flexibility"/>
+    <file name="layout.css" crc="160666056" ref="layout"/>
+    <file name="iefonts_layout.css" crc="3800522738" ref="layout"/>
+    <file name="index.css" crc="390848586" ref="index"/>
+    <file name="iefonts_index.css" crc="3951893643" ref="index"/>
+    <file name="interactive-design.css" crc="3819994467" ref="interactive-design"/>
+    <file name="iefonts_interactive-design.css" crc="4002206547" ref="interactive-design"/>
+    <file name="self-management.css" crc="3731023" ref="self-management"/>
+    <file name="iefonts_self-management.css" crc="238488282" ref="self-management"/>
+    <file name="visual-design.css" crc="378309264" ref="visual-design"/>
+    <file name="iefonts_visual-design.css" crc="372731434" ref="visual-design"/>
+    <file name="interests.css" crc="386238153" ref="interests"/>
+    <file name="communication.css" crc="4239765638" ref="communication"/>
+    <file name="iefonts_communication.css" crc="31107405" ref="communication"/>
+  </folder>
+  <folder name="assets">
+    <file name="ui_gridmap_640x480_b113.jpg" crc="3792298429" mt="1366746062000"/>
+    <file name="simulation_room_640x360.mov" crc="3894093715" mt="1366743711000"/>
+    <file name="simulation_room_480x270.mp4" crc="395724079" mt="1366738485000"/>
+    <file name="simulation_room_640x360.mp4" crc="4025684081" mt="1366738515000"/>
+    <file name="saint_luke-s_hospital_donor_wall_and_history_wall_480x270.mp4" crc="506307830" mt="1366738686000"/>
+    <file name="saint_luke-s_hospital_donor_wall_and_history_wall_640x360.mp4" crc="3850367680" mt="1366738702000"/>
+    <file name="ui_gridmap_640x480_b1132.jpg" crc="3792298429" mt="1366746062000"/>
+    <file name="ui2.jpg" crc="405071249" mt="1366745456000"/>
+    <file name="ui1.jpg" crc="357834103" mt="1366734170000"/>
+    <file name="illustration3lg.jpg" crc="258489600" mt="1366746773000"/>
+    <file name="ui_gridmap_media_b110.pdf" crc="87680477" mt="1349899482000"/>
+    <file name="ui_grid_lg.jpg" crc="4156496255" mt="1366823085000"/>
+    <file name="booth_still.jpg" crc="4254943327" mt="1367257024000"/>
+    <file name="boothpoc.mov" crc="4025960953" mt="1367250924000"/>
+    <file name="calltoaction-03.mov" crc="479994696" mt="1367251129000"/>
+    <file name="axis-ecosystem_concept01_b221.jpg" crc="4079240478" mt="1323984097000"/>
+    <file name="axis-ecosystem.mov" crc="477302483" mt="1367255740000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:visual-design:interactive-design:resume:samples:relevant-experience:interests:flexibility:self-management:layout:interaction-design:communication"/>
+    <file name="museutils.js" crc="4076886207" ref="index:visual-design:interactive-design:resume:samples:relevant-experience:interests:flexibility:self-management:layout:interaction-design:communication"/>
+    <file name="pie.js" crc="4067523484" ref="index:visual-design:interactive-design:resume:samples:relevant-experience:interests:flexibility:self-management:layout:interaction-design:communication"/>
+    <file name="jquery.musemenu.js" crc="4103303034" ref="index:visual-design:interactive-design:resume:samples:relevant-experience:interests:flexibility:self-management:layout:interaction-design:communication"/>
+    <file name="jquery.watch.js" crc="4068933136" ref="index:visual-design:interactive-design:resume:samples:relevant-experience:interests:flexibility:self-management:layout:interaction-design:communication"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4095828644" ref="visual-design:resume"/>
+  </folder>
+  <folder name="images">
+    <file name="favicon.ico" crc="4219387219" ref="index:relevant-experience:interactive-design"/>
+    <file name="zipllogo_03022013_b105_125px.png" crc="23247205" ref="index:visual-design:interactive-design:resume:samples:relevant-experience:interests:flexibility:self-management:layout:interaction-design:communication"/>
+    <file name="arrowmenudown.gif" crc="213132104" ref="index:visual-design:interactive-design:resume:samples:relevant-experience:interests:flexibility:self-management:layout:interaction-design:communication"/>
+    <file name="axis-ecosystem_concept01_b221193x194.jpg" crc="152252339" ref="visual-design"/>
+    <file name="quicktime.png" crc="3979081018" ref="visual-design"/>
+    <file name="poc_still.jpg" crc="10465062" ref="visual-design"/>
+    <file name="booth_still.jpg" crc="471029210" ref="visual-design"/>
+    <file name="illustration.jpg" crc="521321476" ref="visual-design"/>
+    <file name="illustration2.jpg" crc="323688611" ref="visual-design"/>
+    <file name="adobe-pdf-logo-u1838-fr.png" crc="4248385388" ref="visual-design"/>
+    <file name="adobe-pdf-logo-u1838-r-fr.png" crc="149618514" ref="visual-design"/>
+    <file name="adobe-pdf-logo-u1838-m-fr.png" crc="149618514" ref="visual-design"/>
+    <file name="illustration3.jpg" crc="3971678726" ref="visual-design"/>
+    <file name="ui_gridmap_640x480_b113.jpg" crc="3792298429" ref="interactive-design"/>
+    <file name="ui2.jpg" crc="298305519" ref="interactive-design"/>
+    <file name="ui1.jpg" crc="4100986154" ref="interactive-design"/>
+    <file name="myprescription.jpg" crc="533898045" ref="interactive-design"/>
+    <file name="adobe-pdf-logo-u1796-fr.png" crc="3787828655" ref="resume"/>
+    <file name="adobe-pdf-logo-u1796-r-fr.png" crc="4166399896" ref="resume"/>
+    <file name="adobe-pdf-logo-u1796-m-fr.png" crc="4166399896" ref="resume"/>
+    <file name="pasted image 691x37.jpg" crc="4266039334" ref="resume"/>
+    <file name="pasted image 803x887.jpg" crc="3837546510" ref="resume"/>
+    <file name="capture2.jpg" crc="4187369099" ref="flexibility"/>
+    <file name="2013-03-20 200930-u2339.jpg" crc="242363461" ref="self-management"/>
+    <file name="layout-u2365.jpg" crc="3863563931" ref="layout"/>
+    <file name="axis-ecosystem_concept01_b221.jpg" crc="446098413" ref="interaction-design"/>
+    <file name="2012-11-29 150429-u2476.jpg" crc="383947148" ref="communication"/>
+    <file name="2012-12-01 181108-u2470.jpg" crc="442303906" ref="communication"/>
+    <file name="2012-12-02 162714-u2488.jpg" crc="183442415" ref="communication"/>
+  </folder>
+  <file name="index.html" crc="495035111" mt="1367511822543"/>
+  <file name="visual-design.html" crc="4081023494" mt="1367511822545"/>
+  <file name="interactive-design.html" crc="3887375248" mt="1367516955710"/>
+  <file name="resume.html" crc="281403970" mt="1367511822553"/>
+  <file name="samples.html" crc="4197400995" mt="1367511822559"/>
+  <file name="relevant-experience.html" crc="3797781090" mt="1367513235343"/>
+  <file name="interests.html" crc="4061165333" mt="1367511822562"/>
+  <file name="flexibility.html" crc="3910911718" mt="1367511822569"/>
+  <file name="self-management.html" crc="380162746" mt="1367511822570"/>
+  <file name="layout.html" crc="3939008060" mt="1367511822572"/>
+  <file name="interaction-design.html" crc="4157807663" mt="1367511822578"/>
+  <file name="communication.html" crc="281737938" mt="1367511822580"/>
+</manifest>

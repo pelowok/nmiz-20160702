@@ -1,0 +1,236 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+/* CSS Document */
+
+html{
+	 height: 100%;
+	 margin: 0;
+	 padding: 0;
+}
+
+body{
+	font-family: 'Lato', Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:white;
+	background-color:#000000;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+.grid{
+	width:100vmin;
+	height: 100vmin;
+	postion: fixed;
+	align-content: center;
+	overflow-y:auto;
+	-webkit-overflow-scrolling:touch;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.mainDiv{
+	width: 100vmin;
+	height:90vmin;	
+/*	position: relative;	*/
+	align-content: center;
+	display: block;
+	padding-bottom: 5vmin;
+	padding-left: 5vmin;
+	padding-right: 5vmin;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5vmin;
+}
+.innerGrid{
+	display: block;
+	width: 90vmin;
+	height: 90vmin;
+	margin-left: 0vmin auto;
+	margin-right: 0vmin auto;
+	padding: 5vmin;
+	align-content: center;
+	border-radius: 30px;
+	-moz-box-shadow: 4px 4px 5px #111111;
+	-webkit-box-shadow: 4px 4px 5px #111111;
+	box-shadow: 4px 4px 5px #111111;
+/*	background-image:url(../img/blackbox.png); */
+	background-size: cover;
+}
+.innerHero{
+/*	position: absolute;
+	width: 30%; */
+	display: block;
+	position: relative;
+	size: inherit;
+	height: 40vmin; 
+	width: 80vmin;
+	background-size: cover;
+	background-position:center;
+	border-radius: 30px;
+	-moz-box-shadow: 4px 4px 5px #111111;
+	-webkit-box-shadow: 4px 4px 5px #111111;
+	box-shadow: 4px 4px 5px #111111;
+}
+.innerDiv{
+	position: relative;
+	size: inherit;
+	height: 35vmin; 
+	width: 35vmin;
+	background-size: cover;
+	background-position:center;
+	border-radius: 30px;
+	-moz-box-shadow: 4px 4px 5px #111111;
+	-webkit-box-shadow: 4px 4px 5px #111111;
+	box-shadow: 4px 4px 5px #111111;
+	display: inline-block;
+	margin-top: 5vmin;
+}
+
+#_grid{
+	background-image: url(../img/whiteboard04.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	align-content: center;
+	width: 100%;
+	height: 100%;
+}
+#_mainDiv{
+	/*
+	background-image: url(../img/whiteboard04.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	align-content: center;
+	width: 100%;
+	height: 100%;
+	*/
+}
+#innerGrid1 {
+	background-image: url(../img/whitebox.png);
+	
+}
+
+#innerGrid2 {
+	background-image: url(../img/bluebox.png);
+}
+
+#innerGrid3 {
+	background-image: url(../img/redbox.png);
+	
+}
+#innerGrid4 {
+	background-image: url(../img/blackbox.png);
+	
+}
+#tileHero1{
+
+	
+}
+#tile1{
+/*	background-image:url(img/tile_peek.jpg);	*/
+	float: left;
+	display: inline-block;
+}
+#tile2{
+/*	background-image:url(img/tile_shell.jpg);	*/
+	float: right;
+	display: inline-block;
+}
+#tile3{
+/*	background-image:url(img/tile_ruler.jpg);	*/
+	float: left;
+	display: inline-block;
+}
+#tile4{
+/*	background-image:url(img/tile_ruler.jpg);	*/
+	float: right;
+	display: inline-block;
+}
+
+/* #######################################################
+            stuff 
+   #######################################################  */
+
+
+
+/* #######################################################
+         caption slide from http://tympanus.net/ 
+   #######################################################*/
+		
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+a img {
+    border: none;
+}
+
+.caption {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	height: 100%;
+
+}
+
+.caption img {
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+	background-size: cover;
+	background-position:center;
+	border-radius: 30px;
+	-moz-box-shadow: 4px 4px 5px #111111;
+	-webkit-box-shadow: 4px 4px 5px #111111;
+	box-shadow: 4px 4px 5px #111111;
+}
+
+.caption::before,
+.caption::after {
+	opacity: 0;
+	position: absolute;
+	width: 100%;
+	color: #fff;
+	-webkit-transition: opacity 0.4s;
+	-moz-transition: opacity 0.4s;
+	transition: opacity 0.4s;
+}
+
+.caption::before {
+	content: attr(data-title);
+	top: 0;
+	left: 0;
+	height: 20%;
+	background: #152949;
+	font-size: 40px;
+	font-weight: 300;
+	border-top-right-radius: 30px;
+	border-top-left-radius: 30px;
+}
+
+.caption::after {
+	content: '\201C' attr(data-description) '\201D';
+	top: 60%;
+	left: 0;
+	height: 40%;
+	background: #152949;
+	padding: 10px;
+	font-size: 16px;
+	text-align: right;
+	text-indent: 5px;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+
+.caption:hover::before,
+.caption:hover::after {
+	opacity: 0.7;
+}

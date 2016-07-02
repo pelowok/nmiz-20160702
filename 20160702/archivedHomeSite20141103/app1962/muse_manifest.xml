@@ -1,0 +1,73 @@
+<manifest alg="2" build="8" opt="false">
+  <folder name="css">
+    <file name="site_global.css" crc="3783183758"/>
+    <file name="master_a-master.css" crc="502530880" ref="index:rates:visual-design:relevant-experience:interactive-design:samples:interests:writing:resume"/>
+    <file name="index.css" crc="4011042912" ref="index"/>
+    <file name="rates.css" crc="452059273" ref="rates"/>
+    <file name="iefonts_rates.css" crc="371143854" ref="rates"/>
+    <file name="visual-design.css" crc="4170167452" ref="visual-design"/>
+    <file name="iefonts_visual-design.css" crc="3842391275" ref="visual-design"/>
+    <file name="relevant-experience.css" crc="386475276" ref="relevant-experience"/>
+    <file name="iefonts_relevant-experience.css" crc="29175324" ref="relevant-experience"/>
+    <file name="interactive-design.css" crc="4034882058" ref="interactive-design"/>
+    <file name="iefonts_interactive-design.css" crc="4212599490" ref="interactive-design"/>
+    <file name="samples.css" crc="89333759" ref="samples"/>
+    <file name="iefonts_samples.css" crc="460703363" ref="samples"/>
+    <file name="interests.css" crc="60607653" ref="interests"/>
+    <file name="writing.css" crc="3957010146" ref="writing"/>
+    <file name="iefonts_writing.css" crc="408697834" ref="writing"/>
+    <file name="resume.css" crc="4192735971" ref="resume"/>
+  </folder>
+  <folder name="assets">
+    <file name="ui_gridmap_640x480_b113.jpg" crc="3792298429" mt="1366746062000"/>
+    <file name="simulation_room_640x360.mov" crc="3894093715" mt="1366743711000"/>
+    <file name="simulation_room_480x270.mp4" crc="395724079" mt="1366738485000"/>
+    <file name="simulation_room_640x360.mp4" crc="4025684081" mt="1366738515000"/>
+    <file name="saint_luke-s_hospital_donor_wall_and_history_wall_480x270.mp4" crc="506307830" mt="1366738686000"/>
+    <file name="saint_luke-s_hospital_donor_wall_and_history_wall_640x360.mp4" crc="3850367680" mt="1366738702000"/>
+    <file name="ui_gridmap_640x480_b1132.jpg" crc="3792298429" mt="1366746062000"/>
+    <file name="ui2.jpg" crc="405071249" mt="1366745456000"/>
+    <file name="ui1.jpg" crc="357834103" mt="1366734170000"/>
+    <file name="illustration3lg.jpg" crc="258489600" mt="1366746773000"/>
+    <file name="ui_gridmap_media_b110.pdf" crc="87680477" mt="1349899482000"/>
+    <file name="ui_grid_lg.jpg" crc="4156496255" mt="1366823085000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:visual-design:interactive-design:writing:resume:samples:rates:relevant-experience:interests"/>
+    <file name="museutils.js" crc="4076886207" ref="index:visual-design:interactive-design:writing:resume:samples:rates:relevant-experience:interests"/>
+    <file name="pie.js" crc="4067523484" ref="index:visual-design:interactive-design:writing:resume:samples:rates:relevant-experience:interests"/>
+    <file name="jquery.musemenu.js" crc="4103303034" ref="index:visual-design:interactive-design:writing:resume:samples:rates:relevant-experience:interests"/>
+    <file name="jquery.watch.js" crc="4068933136" ref="index:visual-design:interactive-design:writing:resume:samples:rates:relevant-experience:interests"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4095828644" ref="visual-design:resume"/>
+  </folder>
+  <folder name="images">
+    <file name="favicon.ico" crc="4219387219" ref="index"/>
+    <file name="zipllogo_03022013_b105_125px.png" crc="23247205" ref="index:visual-design:interactive-design:writing:resume:samples:rates:relevant-experience:interests"/>
+    <file name="arrowmenudown.gif" crc="213132104" ref="index:visual-design:interactive-design:writing:resume:samples:rates:relevant-experience:interests"/>
+    <file name="indesign.jpg" crc="3881882003" ref="visual-design"/>
+    <file name="adobe-pdf-logo-u1829-fr.png" crc="4248385388" ref="visual-design"/>
+    <file name="adobe-pdf-logo-u1829-r-fr.png" crc="149618514" ref="visual-design"/>
+    <file name="adobe-pdf-logo-u1829-m-fr.png" crc="149618514" ref="visual-design"/>
+    <file name="illustration.jpg" crc="521321476" ref="visual-design"/>
+    <file name="illustration2.jpg" crc="323688611" ref="visual-design"/>
+    <file name="illustration3.jpg" crc="3971678726" ref="visual-design"/>
+    <file name="ui_gridmap_640x480_b113.jpg" crc="3792298429" ref="interactive-design"/>
+    <file name="ui2.jpg" crc="298305519" ref="interactive-design"/>
+    <file name="ui1.jpg" crc="4100986154" ref="interactive-design"/>
+    <file name="myprescription.jpg" crc="533898045" ref="interactive-design"/>
+    <file name="adobe-pdf-logo-u1796-fr.png" crc="3787828655" ref="resume"/>
+    <file name="adobe-pdf-logo-u1796-r-fr.png" crc="4166399896" ref="resume"/>
+    <file name="adobe-pdf-logo-u1796-m-fr.png" crc="4166399896" ref="resume"/>
+    <file name="pasted image 691x37.jpg" crc="4266039334" ref="resume"/>
+    <file name="pasted image 803x887.jpg" crc="3837546510" ref="resume"/>
+  </folder>
+  <file name="index.html" crc="324055938" mt="1367512792959"/>
+  <file name="visual-design.html" crc="134929990" mt="1367004968714"/>
+  <file name="interactive-design.html" crc="429024272" mt="1367004968716"/>
+  <file name="writing.html" crc="3955741710" mt="1367004968701"/>
+  <file name="resume.html" crc="4274213744" mt="1367004968702"/>
+  <file name="samples.html" crc="4136792469" mt="1367004968704"/>
+  <file name="rates.html" crc="4138358403" mt="1367006565956"/>
+  <file name="relevant-experience.html" crc="44744975" mt="1367005081325"/>
+  <file name="interests.html" crc="26081117" mt="1367004968709"/>
+</manifest>

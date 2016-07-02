@@ -1,0 +1,144 @@
+/* Reset
+------------------------------------------------------------ */
+* { margin: 0; padding: 0; }
+html { overflow-y: scroll;}
+body { background:#ffffff; font-size: 13px; color: #666666; font-family: Arial, helvetica, sans-serif;}
+ol, ul { list-style: none; margin: 0;}
+ul li { margin: 0; padding: 0;}
+h1 { margin-bottom: 10px; color: #111111;}	
+a, img { outline: none; border:none; color: #000; font-weight: bold;}
+p { margin: 0 0 10px; line-height: 1.4em; font-size: 1.2em;}
+img { display: block; margin-bottom: 10px;}
+aside { font-style: italic; font-size: 0.9em;}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section { 
+    display: block;
+	}
+	
+/* Structure */
+#wrapper {
+	width: 96%;	
+	max-width: 920px;
+	margin: auto;
+	padding: 2%;
+	} 
+
+        #topic {
+            width: 90%;
+            float: left;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 2%;
+        }
+        
+        #topic hr {
+            margin-top: 2%;
+            margin-bottom: 2%;
+        }
+        
+	#codeSamples, #recentProject, #toolsAndPlatforms, #learningNewTech, #gitVersionControl,
+            #singletonsAndSerializing, #whatIBringToTheTeam {
+		width: 60%;
+		margin-right: 5%;
+                float: left;
+		}		
+		
+	aside {
+		width: 35%;
+		float: right;
+		}
+        
+        #return {
+                width: 60%;
+                float: left;
+                margin-right: 5%;
+                text-align: right;
+                margin-bottom: 2%;
+        }
+                
+        
+        #contact {
+                    
+                }
+
+header {
+        
+}
+/* Logo H1 */
+header h1 {
+	height: 60px;
+	width: 100%;
+	float: right;
+	display: block;
+	background: url(../images/masthead.png) 0 0 repeat;
+	text-indent: -9999px;
+	}
+		
+/* Nav */
+header nav {
+	float: right;
+        position: relative;
+        left: -50%;
+	margin-top: 2%;
+        margin-bottom: 2%;
+	}
+	
+	header nav li {
+                position: relative;
+                left: 50%;
+		display: inline;
+                margin-left: 10px;
+		margin-right: 10px;
+		}
+        header img {
+                float: left;
+                width: 80%;
+                margin-left: 10%;
+                border: 2px solid;
+                border-radius: 10px;
+                border-color: #333;
+		}
+                
+
+#skipTo {
+	display: none;
+	}
+	#skipTo li {
+		background: #b1fffc;
+		}
+
+/* Banner */			
+#home {
+	float: left;
+        margin-top: 15px;
+	margin-bottom: 15px;
+	width: 100%;
+	}
+
+
+/* Media Queries */
+@media screen and (max-width: 480px) {
+
+	#skipTo {
+            display: block;
+        }
+	
+	header nav {
+            float: left;
+            clear: left;
+            margin: 0 0 10px; 
+            width: 100%;
+	}	
+	header nav li {
+            margin: 0;
+            background: #efefef;
+            display: block;
+            margin-bottom: 3px;
+    }
+        header nav a {
+            display: block;
+            padding: 10px;
+            text-align: center;
+        }
+        
+}
